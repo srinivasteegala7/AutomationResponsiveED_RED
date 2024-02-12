@@ -27,22 +27,25 @@ public class LoginPageObjects {
 		testbase = new TestBase();
 	}
 
-	public void user_name_txtbox(String username) {
+	public void user_name_txtbox(String username) throws Exception {
 		Log.info("Explicity wait applied on the driver for 60 seconds");
 		Constants.driver.manage().window().maximize();
+		Thread.sleep(2000);
 		Constants.driver.findElement(userName).sendKeys(username);
 		Log.info("user_name is found on the Home page");
 
 	}
 
-	public void password_txtbox(String password) {
+	public void password_txtbox(String password) throws Exception {
 		Log.info("Explicity wait applied on the driver for 60 seconds");
+		Thread.sleep(2000);
 		Constants.driver.findElement(passWord).sendKeys(password);
 		Log.info("password_txtbox is found on the Home page");
 	}
 
 	public void Login_buton() throws InterruptedException {
 		Log.info("Explicity wait applied on the driver for 60 seconds");
+		Thread.sleep(2000);
 		Constants.driver.findElement(loginButton).click();
 		Log.info("password_txtbox is found on the Home page");
 		Thread.sleep(8000);
@@ -54,7 +57,7 @@ public class LoginPageObjects {
 		}
 	}
 
-	public void Logintoappln(String UserName, String Password) throws InterruptedException {
+	public void Logintoappln(String UserName, String Password) throws Exception {
 
 		user_name_txtbox(UserName);
 		password_txtbox(Password);

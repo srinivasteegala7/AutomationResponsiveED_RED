@@ -55,35 +55,35 @@ formatter.match({
   "location": "searchUserStepDef.user_on_the_loginpage()"
 });
 formatter.result({
-  "duration": 10550741500,
+  "duration": 10408021900,
   "status": "passed"
 });
 formatter.match({
   "location": "searchUserStepDef.user_Click_on_the_UserMenu()"
 });
 formatter.result({
-  "duration": 2186721000,
+  "duration": 2093820500,
   "status": "passed"
 });
 formatter.match({
   "location": "searchUserStepDef.user_selected_All_Drop_Down_Values()"
 });
 formatter.result({
-  "duration": 25091533700,
+  "duration": 24513573200,
   "status": "passed"
 });
 formatter.match({
   "location": "searchUserStepDef.user_Clicks_GO_button()"
 });
 formatter.result({
-  "duration": 4150002100,
+  "duration": 4074446400,
   "status": "passed"
 });
 formatter.match({
   "location": "searchUserStepDef.user_Enter_User_Nane_And_search()"
 });
 formatter.result({
-  "duration": 14654530100,
+  "duration": 14351688000,
   "status": "passed"
 });
 });
